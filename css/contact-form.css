@@ -1,0 +1,60 @@
+fieldset {
+    margin: 0 0 10px;
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}
+
+#form input[type="text"],
+#form input[type="email"],
+#form textarea {
+
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#form textarea {
+    height: 100px;
+    resize: none;
+    border-radius: 20px;
+}
+
+#form {
+    width: 50%;
+}
+
+label {
+    font-family: "aeoniklight";
+    color: #0E1222;
+}
+
+/* button */
+
+#form button[type="submit"] {
+    cursor: pointer;
+    width: 103.5%;
+    border: none;
+    background-color: #0E1222;
+    color: #E4EDEF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "aeoniklight";
+    border-radius: 20px;
+}
+
+#form button[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #0E1222;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#form button[type="submit"]:active {
+    background-color: #B4DAEE;
+    border: 
+    transition: background-color 0.3s ease-in-out;
+}
